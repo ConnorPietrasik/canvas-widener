@@ -1,0 +1,6 @@
+{
+    "manifest_version": 3,
+    "name": "Canvas Widener",
+    "version": "1.0",
+    "description": "Automatically widens Instructure Canvas file pages to fit slides properly"
+}
