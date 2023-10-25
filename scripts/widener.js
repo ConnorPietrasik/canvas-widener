@@ -1,6 +1,8 @@
-const widen_id = "content-wrapper";
-const SIZE = "1800px";
+var wrapper = document.getElementById("content-wrapper");
 
-var wrapper = document.getElementById(widen_id);
-
-wrapper.style.minWidth = SIZE;
+chrome.storage.sync.get(
+    {size: "1800px"},
+    (items) => {
+        wrapper.style.minWidth = items.size;
+    }
+);
