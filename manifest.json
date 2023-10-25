@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Canvas Widener",
     "version": "1.0",
-    "description": "Automatically widens file pages to fit slides properly",
+    "description": "Automatically widens instructure Canvas file pages to fit slides properly",
 
     "icons": {
         "16": "images/icon-16.png",
